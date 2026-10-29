@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Visitor (debug)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--dart-define=API_BASE_URL=https://dy.solvyngroups.com/api/v1"]
+    },
+    {
+      "name": "Visitor (profile)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main.dart",
+      "args": ["--dart-define=API_BASE_URL=https://dy.solvyngroups.com/api/v1"]
+    },
+    {
+      "name": "Visitor (local API)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--dart-define=API_BASE_URL=http://10.0.2.2:8787/v1"]
+    }
+  ]
+}

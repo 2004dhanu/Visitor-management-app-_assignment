@@ -1,0 +1,11 @@
+{
+  "dart.flutterSdkPath": "D:\flutter",
+  "dart.lineLength": 100,
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.codeActionsOnSave": { "source.fixAll": "explicit" }
+  },
+  "files.exclude": { "**/.dart_tool": true, "**/.idea": true }
+}
